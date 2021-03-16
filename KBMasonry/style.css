@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    line-height: 15px;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    padding: .5rem;
+    font-size: 22px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+}
+
+.navbar-brand::first-letter {
+    color:rgb(255, 94, 0);
+}
+
+span {
+    color: rgb(255, 94, 0);
+}
+
+.btn {
+    border-radius: 10px;
+    color: white;
+    line-height: 15px;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+}
+
+.btn:hover {
+    color: rgb(255, 94, 0);
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.dropdown-menu {
+    font-family: 'Noto Sans KR', sans-serif;
+}
